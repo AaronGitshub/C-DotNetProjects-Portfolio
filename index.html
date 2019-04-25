@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Aaron Wood - Portfolio</title>
+</head>
+
+<!-- The scrollable area -->
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Current Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#OlderThings">Older Things</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Section 4
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#section41">Link 1</a>
+              <a class="dropdown-item" href="#section42">Link 2</a>
+            </div>
+          </li> -->
+        </ul>
+      </nav>
+      
+      <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+        <h1>Current Projents</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="OlderThings" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+        <h1>Older Things</h1>
+        <p>These are some of the things that I have done in the past.</p>
+        <p>Commerical Real Estate Appraiser - Wood Advantage -- 2012 to 2019</P>
+          <li>Developed Clients</li>
+          <li>Earned MAI in 2017</li>
+          <p>Worked at these frims between 2003 and 2012:
+<li>Correll Commercial - Indianapolis</li>
+<li>Appraisers and Planners - New York City</li>
+<li>MVS - New York City</li>
+          </p>
+          
+        <p>Agricultureal Economic Bachelors - Purdue University -- 2003</p>
+        <!-- <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> -->
+      </div>
+      <!-- <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+        <h1>Section 4 Submenu 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+        <h1>Section 4 Submenu 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div> -->
+      
+      <script>
+      $(document).ready(function(){
+        $('body').scrollspy({target: ".navbar", offset: 50});   
+      });
+      </script>
+      
+                        <!--  jQuery and Popper.js for bootstrap -Leave alone- -->
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                            crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                            crossorigin="anonymous"></script>
+</body>
+
+</html>
