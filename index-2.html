@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                height: 100vh;
+                margin: 0; 
+                padding: 0;
+                font-size: 16px;
+            }
+            .site-wrap {
+                display: grid;
+                grid-template-columns: 50px auto;
+                height: 100%;
+
+            }
+            .header {
+                display: flex;
+                flex-direction: row;
+                grid-column: 1;
+                flex-wrap: wrap;
+                align-items: flex-start;
+            }
+
+            .body {
+                display: flex;
+                flex-direction: column;
+                grid-column: 2;
+                overflow: auto;
+            }
+
+            .section {
+                border-bottom: 1px solid black;
+                margin-top: 5em;
+                margin-bottom: 5em;
+            }
+
+            .section--blue {
+                background: blue;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="site-wrap">
+            <div class="header">
+                <span>section 1</span>
+                <span>section 2</span>
+                <span>section 3</span>
+                <span>section 4</span>
+            </div>
+            <div class="body">
+                <div class="section section--blue">
+                    lorem ipsum lorem upsum lorem ipsum                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+                    lorem ipsum lorem upsum lorem ipsum
+
+
+                </div>
+                <div class="section">
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+
+                </div>
+                <div class="section">
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+
+                </div>
+                <div class="section">
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+                        lorem ipsum lorem upsum lorem ipsum
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

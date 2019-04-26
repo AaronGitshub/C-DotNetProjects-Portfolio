@@ -1,0 +1,37 @@
+<!DOCTYPE html>]
+<html>
+    <head>
+        <style>
+            .header {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .body {
+                display: flex;
+                flex-direction: column;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="site-wrap">
+            <div class="header">
+                <span>section 1</span>
+                <span>section 2</span>
+                <span>section 3</span>
+                <span>section 4</span>
+            </div>
+            <div class="body">
+                <div class="section">
+                </div>
+                <div class="section">
+                </div>
+                <div class="section">
+                </div>
+                <div class="section">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
