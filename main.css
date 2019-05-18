@@ -1,1 +1,6 @@
 .bg-warning{ background: red !important; }
+
+.currentprojects h1{
+align-content: center
+margin-top: 20px
+}
